@@ -78,9 +78,9 @@
             #security
             HeadOfSecurity: [ 1, 1 ]
             RedsightOverseer: [ 1, 1 ] #Ratbite
-            Warden: [ 1, 1 ]
+            Warden: [ 2, 2 ] #Ratbite de protaganist-ify him!!!
+            Detective: [ 2, 2 ] #Ratbite disco elysium/sherlock larp
             SecurityOfficer: [ 4, 4 ]
-            Detective: [ 1, 1 ]
             SecurityCadet: [ 2, 2 ]
             Lawyer: [ 1, 1 ]
             Brigmedic: [ 1, 1 ]
