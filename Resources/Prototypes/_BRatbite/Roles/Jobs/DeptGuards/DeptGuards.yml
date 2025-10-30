@@ -37,7 +37,6 @@
   storage:
     back:
     - Flash
-    - Pepperspray
 
 - type: job
   id: CargoInsurance
@@ -79,7 +78,6 @@
   storage:
     back:
     - Flash
-    - Pepperspray
 
 - type: job
   id: ScicurityGuard
@@ -116,7 +114,6 @@
   storage:
     back:
     - Flash
-    - Pepperspray
 
 - type: job
   id: EngiSentry
@@ -163,5 +160,4 @@
   storage:
     back:
     - Flash
-    - Pepperspray
 

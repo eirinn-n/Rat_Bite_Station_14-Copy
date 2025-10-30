@@ -28,7 +28,7 @@
   name: medicalorderly
   components:
   - type: SpawnPoint
-    job_id: MedicalOrderly
+    job_id: MedOrderly
   - type: Sprite
     layers:
     - state: green
@@ -40,7 +40,7 @@
   name: cargoinsurance
   components:
   - type: SpawnPoint
-    job_id: MedicalOrderly
+    job_id: CargoInsurance
   - type: Sprite
     layers:
     - state: green
@@ -52,7 +52,7 @@
   name: scicurityguard
   components:
   - type: SpawnPoint
-    job_id: MedicalOrderly
+    job_id: ScicurityGuard
   - type: Sprite
     layers:
     - state: green
@@ -64,7 +64,7 @@
   name: engisentry
   components:
   - type: SpawnPoint
-    job_id: MedicalOrderly
+    job_id: EngiSentry
   - type: Sprite
     layers:
     - state: green

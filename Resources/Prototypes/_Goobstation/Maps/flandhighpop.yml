@@ -68,17 +68,20 @@
             ServiceWorker: [ 4, 4 ]
             #engineering
             ChiefEngineer: [ 1, 1 ]
+            EngiSentry: [ 1, 1 ] #ratbite
             AtmosphericTechnician: [ 5, 5 ]
             StationEngineer: [ 8, 8 ]
             TechnicalAssistant: [ -1, -1 ]
             #medical
             ChiefMedicalOfficer: [ 1, 1 ]
+            MedicalOrderly: [ 1, 1 ] #ratbite
             Chemist: [ 3, 3 ]
             MedicalDoctor: [ 10, 10 ]
             Paramedic: [ 3, 3 ]
             MedicalIntern: [ -1, -1 ]
             #science
             ResearchDirector: [ 1, 1 ]
+            ScicurityGuard: [ 1, 1 ] #ratbite
             Scientist: [ 10, 10 ]
             ResearchAssistant: [ -1, -1 ]
             #security
@@ -92,6 +95,7 @@
             Brigmedic: [ 1, 1 ]
             #supply
             Quartermaster: [ 1, 1 ]
+            CargoInsurance: [ 1, 1 ] #ratbite
             SalvageSpecialist: [ 8, 8 ]
             CargoTechnician: [ -1, -1 ]
             #civilian
