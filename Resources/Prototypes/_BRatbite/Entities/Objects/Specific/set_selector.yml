@@ -1,0 +1,16 @@
+- type: entity
+  id: SecuritySidearmUndeterminedWeapon
+  name: Security weapon briefcase
+  description: A weapon briefcase that hold security sidearm that were given to you before you start your shift.
+  parent: [ BaseItem, BaseSetSelector, BaseCentcommContraband ]
+  components:
+  - type: Sprite
+    sprite: _BRatBites/Objects/Weapon/guncase.rsi
+    state: icon
+  - type: SetSelector
+    possibleSets:
+    - SecMK58RSSet
+    - SecShieldRSSet
+    - SecEP12RSSet
+    - SecPEW1RSSet
+    maxSelectedSets: 1

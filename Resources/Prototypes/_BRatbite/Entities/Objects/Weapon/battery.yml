@@ -54,7 +54,7 @@
   name: PEW-1 Energy Pistol
   parent: [BaseWeaponBatterySmall, BaseGrandTheftContraband]
   id: WeaponLockedEnergyPistol
-  description: An energy pistol for paranoid security personal. Come with access lock on the gun trigger and capable of firing both disabler and lethal shot with internal battery.
+  description: Pesonalize Energy Weapon for paranoid security personal. Come with access lock on the gun trigger and capable of firing both disabler and lethal bolt with internal battery.
   components:
   - type: Sprite
     sprite: _BRatBites/Objects/Weapon/Battery/pew-1energypistol
@@ -110,6 +110,7 @@
     - Sidearm
   - type: StaticPrice
     price: 750
+  - type: FiringPin 
   - type: Lock 
     locked: true
   - type: AccessReader 
