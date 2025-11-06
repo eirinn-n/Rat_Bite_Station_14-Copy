@@ -44,7 +44,7 @@
   name: selectable-set-security-lucky-name
   description: selectable-set-security-lucky-description
   sprite:
-    sprite: _BRatBites\Objects\Weapon\Pistol\lucky.rsi
+    sprite: _BRatBites/Objects/Weapon/Pistol/lucky.rsi
     state: icon
   content:
     - LuckyGunCaseBriefcase
