@@ -39,28 +39,28 @@
     Uranium: 110
 
 - type: latheRecipe
-  parent: BaseAmmoBoxRecipe
+  parent: BaseAmmoRecipe
   id: MagazineBox38Magnum
   result: MagazineBox38Magnum
   materials:
     Steel: 240
 
 - type: latheRecipe
-  parent: BaseAmmoBoxRecipe
+  parent: BaseAmmoRecipe
   id: MagazineBox38MagnumIncendiary
   result: MagazineBox38MagnumIncendiary
   materials:
     Plastic: 240
 
 - type: latheRecipe
-  parent: BaseAmmoBoxRecipe
+  parent: BaseAmmoRecipe
   id: MagazineBox38MagnumPractice
   result: MagazineBox38MagnumPractice
   materials:
     Steel: 60
 
 - type: latheRecipe
-  parent: BaseAmmoBoxRecipe
+  parent: BaseAmmoRecipe
   id: MagazineBox38MagnumUranium
   result: MagazineBox38MagnumUranium
   materials:
@@ -107,5 +107,5 @@
     Steel: 500
     Glass: 300
     Plastic: 200
-    Silver: 100
+    Plasma: 100
     Gold: 200
