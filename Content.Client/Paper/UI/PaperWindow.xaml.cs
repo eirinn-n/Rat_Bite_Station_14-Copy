@@ -45,6 +45,7 @@ namespace Content.Client.Paper.UI
             typeof(ColorTag),
             typeof(HeadingTag),
             typeof(ItalicTag),
+            typeof(MonoTag)
             typeof(LogoTag),
             typeof(SyndieLogoTag)
         };
@@ -149,7 +150,17 @@ namespace Content.Client.Paper.UI
             HeaderImage.ModulateSelfOverride = visuals.HeaderImageModulate;
             HeaderImage.Margin = new Thickness(visuals.HeaderMargin.Left, visuals.HeaderMargin.Top,
                     visuals.HeaderMargin.Right, visuals.HeaderMargin.Bottom);
+            
+            // Then the footer
+            if (visuals.FooterImagePath is {} path)
+            {
+                FooterImage.TexturePath = path.ToString();
+                FooterImage.MinSize = FooterImage.TextureNormal?.Size ?? Vector2.Zero;
+            }
 
+            FooterImage.ModulateSelfOverride = visuals.FooterImageModulate;
+            FooterImage.Margin = new Thickness(visuals.FooterMargin.Left, visuals.FooterMargin.Top,
+                    visuals.FooterMargin.Right, visuals.FooterMargin.Bottom);
 
             PaperContent.ModulateSelfOverride = visuals.ContentImageModulate;
             WrittenTextLabel.ModulateSelfOverride = visuals.FontAccentColor;
