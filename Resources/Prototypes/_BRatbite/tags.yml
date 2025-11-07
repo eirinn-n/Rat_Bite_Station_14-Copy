@@ -1,0 +1,8 @@
+- type: Tag
+  id: EnergyPistolMagAmmo
+
+- type: Tag
+  id: 38magnumCartridge
+
+- type: Tag
+  id: SpeedLoader38Magnum

@@ -589,6 +589,7 @@
   - HeadofSecurityJumpsuit
   - SecurityBackpack
   - SecurityMelee # Goobstation
+  - SecuritySidearm # RatBite Station - more sidearm slop
   - SecurityBelt
   - HeadofSecurityOuterClothing
   - HeadofSecurityShoes # Goobstation edit
@@ -610,6 +611,7 @@
   - WardenJumpsuit
   - SecurityBackpack
   - SecurityMelee # Goobstation
+  - SecuritySidearm # RatBite Station - more sidearm slop
   - SecurityNeck
   - SecurityBelt
   - WardenOuterClothing
@@ -631,6 +633,7 @@
   - SecurityJumpsuit
   - SecurityBackpack
   - SecurityMelee # Goobstation
+  - SecuritySidearm # RatBite Station - more sidearm slop
   - SecurityOuterClothing
   - SecurityShoes
   - SecurityNeck
