@@ -94,7 +94,7 @@
   - all
   name: all-at-once-title
   description: all-at-once-description
-  showInVote: false
+  showInVote: false 
   rules:
     - PermaBrig # RatBite - Multi-Round brig system
     - Nukeops
@@ -151,7 +151,7 @@
   - extended
   - shittersafari
   name: extended-title
-  showInVote: true #Ratbites, easier to control survival.
+  showInVote: false 
   description: extended-description
   rules:
   - PermaBrig # RatBite - Multi-Round brig system
@@ -167,7 +167,7 @@
   - greenshift
   - shittersafarideluxeedition
   name: greenshift-title
-  showInVote: true #If the masses want a greenshift there is a reason.
+  showInVote: false 
   description: greenshift-description
   rules:
   - PermaBrig # RatBite - Multi-Round brig system
@@ -181,7 +181,7 @@
     - secret
     - sekrit
   name: secret-title
-  showInVote: true #Ratbite, secret is the most balanced mode because it doesnt use shitty values :sob:
+  showInVote: false # Ratbite - Death
   description: secret-description
   rules:
     - PermaBrig # RatBite - Multi-Round brig system

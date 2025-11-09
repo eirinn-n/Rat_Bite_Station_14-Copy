@@ -20,6 +20,15 @@
 #
 # SPDX-License-Identifier: AGPL-3.0-or-later
 
+# RATBITE WEAPON LOADOUTS
+- type: loadoutGroup
+  id: SecuritySidearm
+  name: Security Sidearm
+  minLimit: 0
+  maxLimit: 1
+  loadouts:
+  - SecurityMK58
+  - SecurityK38
 
 # RSO
 

@@ -482,6 +482,13 @@
   materials:
     Steel: 190
 
+- type: latheRecipe # Ratbite DV Port
+  parent: BaseAmmoRecipe
+  id: SpeedLoader38Special
+  result: SpeedLoaderSpecial
+  materials:
+    Steel: 150
+
 - type: latheRecipe
   parent: BaseAmmoRecipe
   id: SpeedLoaderMagnumPractice

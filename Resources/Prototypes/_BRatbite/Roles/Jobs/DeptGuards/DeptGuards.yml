@@ -26,13 +26,13 @@
   - !type:AddComponentSpecial
     components:
       - type: Condemned
-        soulOwnedNotDevil: true
+        soulOwnedNotDevil: true # Bootlicker for NT
 
 - type: startingGear
   id: MedicalOrderlyGear
   equipment:
     eyes: ClothingEyesGlassesSunglasses
-    ears: ClothingHeadsetMedical
+    ears: ClothingHeadsetMedicalGuard # Their headsets have some seccomms now so they don't deal with shit alone.
     id: MedWatchPDA
   storage:
     back:
@@ -74,7 +74,7 @@
   equipment:
     eyes: ClothingEyesGlassesSunglasses
     id: CargoWatchPDA
-    ears: ClothingHeadsetCargo
+    ears: ClothingHeadsetCargoGuard
   storage:
     back:
     - Flash
@@ -87,29 +87,32 @@
   requirements:
     - !type:DepartmentTimeRequirement
       department: Science
-      time: 3600 #1 hr
+      time: 3600 #1 hour
     - !type:DepartmentTimeRequirement
       department: Security
       time: 3600 # 1 hour
   startingGear: ScicurityguardGear
   icon: "JobIconScicurityGuard"
   supervisors: job-supervisors-rd
+  canBeAntag: true # ourple guy
   goobcoins: 20 #Goob content
   access:
   - Research
   - Maintenance
 
-  special: # Sci guard can be evil, PURPLE GUY!!?!?!?
+  special: # Sci guard has mindshield because fuck you.
+  - !type:AddImplantSpecial
+    implants: [ MindShieldImplant ]
   - !type:AddComponentSpecial
     components:
       - type: Condemned
-        soulOwnedNotDevil: false
+        soulOwnedNotDevil: true
 
 - type: startingGear
   id: ScicurityguardGear
   equipment:
     eyes: ClothingEyesGlassesSunglasses
-    ears: ClothingHeadsetScience
+    ears: ClothingHeadsetScienceGuard
     id: SciWatchPDA
   storage:
     back:
@@ -123,7 +126,7 @@
   requirements:
     - !type:DepartmentTimeRequirement
       department: Engineering
-      time: 3600 #1 hrs
+      time: 3600 #1 hour
     - !type:DepartmentTimeRequirement
       department: Security
       time: 3600 # 1 hour
@@ -155,7 +158,7 @@
   id: EngiSentryGear
   equipment:
     eyes: ClothingEyesGlassesSunglasses
-    ears: ClothingHeadsetEngineering
+    ears: ClothingHeadsetEngineeringGuard
     id: EngineerWatchPDA
   storage:
     back:

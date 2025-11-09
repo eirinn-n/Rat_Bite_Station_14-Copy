@@ -1081,6 +1081,8 @@
       Hair: HEAD
       HeadTop : HEAD
       HeadSide : HEAD
+  - type: ScannableForPoints # goob edit
+    points: 1
 
 - type: entity
   parent: [ ClothingHeadBase, BaseSyndicateContraband ]
@@ -1097,6 +1099,8 @@
       Hair: HEAD
       HeadTop : HEAD
       HeadSide : HEAD
+  - type: ScannableForPoints # goob edit
+    points: 1
 
 - type: entity
   parent: [ ClothingHeadBase, BaseSyndicateContraband ]
@@ -1113,6 +1117,8 @@
       Hair: HEAD
       HeadTop : HEAD
       HeadSide : HEAD
+  - type: ScannableForPoints # goob edit
+    points: 1
 
 - type: entity
   parent: ClothingHeadBase
@@ -1313,6 +1319,8 @@
     sprite: Clothing/Head/Hats/syndiecap.rsi
   - type: Clothing
     sprite: Clothing/Head/Hats/syndiecap.rsi
+  - type: ScannableForPoints # goob edit
+    points: 1
 
 - type: entity
   parent: ClothingHeadBase

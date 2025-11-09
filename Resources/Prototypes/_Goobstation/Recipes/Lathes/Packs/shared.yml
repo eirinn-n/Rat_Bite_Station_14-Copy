@@ -15,6 +15,7 @@
   - ProtolatheMachineCircuitboard
   - AutolatheMachineCircuitboard
   - CircuitImprinterMachineCircuitboard
+  - PrinterDocMachineCircuitboard
 
 - type: latheRecipePack
   id: GrenadeTriggersStatic
