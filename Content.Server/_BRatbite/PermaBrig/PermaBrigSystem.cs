@@ -220,7 +220,7 @@ public sealed class PermaBrigSystem : GameRuleSystem<PermaBrigComponent>
 
         var aev = new PlayerSpawnCompleteEvent(mob,
             player,
-            "prisoner",
+            "Prisoner",
             false,
             true,
             0,
