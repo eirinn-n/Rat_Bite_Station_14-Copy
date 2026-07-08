@@ -2,6 +2,9 @@
 //
 // SPDX-License-Identifier: AGPL-3.0-or-later
 
+using Content.Shared.DoAfter;
+using Robust.Shared.Serialization;
+
 namespace Content.Shared._BRatbite.Cuffs;
 
 public sealed class TemporaryCuffsAppliedEvent(EntityUid target) : EntityEventArgs
@@ -13,3 +16,11 @@ public sealed class TemporaryCuffsRemovedEvent(EntityUid target) : EntityEventAr
 {
     public EntityUid Target = target;
 }
+
+public sealed class TemporaryCuffsStruggleInterruptedEvent(EntityUid target) : EntityEventArgs
+{
+    public EntityUid Target = target;
+}
+
+[Serializable, NetSerializable]
+public sealed partial class TemporaryCuffsBreakoutDoAfterEvent : SimpleDoAfterEvent;

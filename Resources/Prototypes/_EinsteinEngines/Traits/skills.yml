@@ -97,7 +97,7 @@
   name: trait-name-ExperiencedSurgeon
   description: trait-description-ExperiencedSurgeon
   category: Mental
-  cost: 3
+  cost: 5
   components:
   - type: SurgerySpeedModifier
     speedModifier: 2.3

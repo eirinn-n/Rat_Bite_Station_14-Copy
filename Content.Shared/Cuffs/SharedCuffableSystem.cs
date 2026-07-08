@@ -418,6 +418,14 @@ namespace Content.Shared.Cuffs
             }
             else
             {
+                if (user == target &&
+                    args.DoAfter.CancelledTime is { } cancelledTime &&
+                    TryComp<TemporaryCuffsComponent>(used, out var temporaryCuffs) &&
+                    cancelledTime - args.DoAfter.StartTime >= temporaryCuffs.MinimumInterruptedStruggleTime)
+                {
+                    RaiseLocalEvent(used, new TemporaryCuffsStruggleInterruptedEvent(target));
+                }
+
                 _popup.PopupClient(Loc.GetString("cuffable-component-remove-cuffs-fail-message"), user, user);
             }
         }
@@ -602,7 +610,7 @@ namespace Content.Shared.Cuffs
             EnsureComp<HandcuffComponent>(handcuff, out var handcuffsComp);
             handcuffsComp.Used = true;
             Dirty(handcuff, handcuffsComp);
-            
+
             var ev = new TargetHandcuffedEvent();
             RaiseLocalEvent(target, ref ev);
 
@@ -792,7 +800,7 @@ namespace Content.Shared.Cuffs
                 BreakOnMove = true,
                 BreakOnWeightlessMove = false,
                 BreakOnDamage = true,
-                NeedHand = true,
+                NeedHand = !isOwner,
                 RequireCanInteract = false, // Trust in UncuffAttemptEvent
                 DistanceThreshold = 1f // shorter than default but still feels good
             };
